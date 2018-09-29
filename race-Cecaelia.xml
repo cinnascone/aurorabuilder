@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Cecaelia</name>
+        <description>5e homebrew</description>
+        <author url="https://drive.google.com/file/d/0Byri_2y3GlvLS0xMcXMtMEd0dzg/view">Brew_Cecaelia</author>
+        <update version="0.0.1">
+            <file name="race-Cecaelia.xml" url="https://raw.githubusercontent.com/cinnascone/aurorabuilder/race-Cecaelia.xml" />
+        </update>
+    </info>
+
+    <element name="Cecaelia" type="Race" source="Brew_Cecaelia" id="Brew_Cecaelia">
+        <description>
+            <h4>PHYSICAL DESCRIPTION</h4>
+            <p>The torso of a cecaelia is humanoid and has a very pale skin tone, usually taking on muted pinks, greys, and blues. Their hair and eyes stand in stark contrast to their light complexion, being rich blues and blacks, their dark eyes especially adding to their mysterious character. However, the lower body of a cecaelia is their most striking feature. From the waist down they are akin to a large octopus, bearing eight long, dextrous tentacles which can both propel them in water and carry them on land. These are often deeper blues, purples, and reds, sometimes with faint circular or wave-like patterns of a darker tone. Some cecaelia have the ability to alter their colouration, giving them an even greater range of exotic colours and patterns.</p>
+            <h4>HISTORY</h4>
+            <p>The history of the cecaelia as a race is all but unknown to scholars of the surface world, and though some surface dwellers believe they are a subrace of merfolk, the cecaelia, and indeed the merfolk themselves, would take great offense to this comparison. Regardless of their true origins, their lives beneath the waves have affected them greatly. Though they can survive outside of the oceans no cecaelia ever completely abandons the water, with many of the land-dwelling individuals making pilgrimages to the sea every few months. Throughout the rest of the year these inland cecaelia sate their innate desire for an aquatic environment via other means, such as swimming in a nearby river or lake, or frequenting the local bath houses.</p>
+            <h4>SOCIETY</h4>
+            <p>The sea is treacherous and deadly, and every cecaelia is born with a strong sense of self-reliance that they use to survive. They are fiercely independent and will always try to complete a task by themselves unless it becomes apparent that they can't do it alone. at this point they will seek out people they know for help, before approaching strangers as a last resort. If someone offers to help a cecaelia without provocation or, even worse, tries to help without asking, the cecaelia will see this as an affront to their abilities to look after themselves and will take personal offense, emphatically arguing that they can complete the task by him or herself and requesting (politely or not) to be left alone. This is not to say that cecaelia crave isolation, as given enough time and patience a cecaelia will form intimate bonds with friends and family. Usually limited to a small group, these connections are of great personal importance and are rarely broken.</p>
+            <h4>Cecaelia NAMES</h4>
+            <p>Cecaelia names are as unique as the individuals who bear them, as they choose their own names upon reaching adulthood. This is considered their true name and most consist of a single word, often featuring unusal sounds or letter combinations. As it is known they will adopt their true name relatively quickly, families refer to young cecaelia by very simple pet names that relate to their aquatic environment. However, once a cecaelia takes their true name, addressing them by this pet name is considered extremely rude.</p>
+            <p>
+                <b>Child Names: </b>Wave, Pearl, Shell, Coral, Tide<br/>
+				<b>Male True Names: </b>Aamnesthal, Eamleith, Sorsasz<br/>
+                <b>Female True Names: </b>Caenia, Jurira, Salria            
+            </p>
+            <h4>Cecaelia TRAITS</h4>
+            <p>Half human, half octopus. Very dextrous by nature, and not quick to trust.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2.<br />
+                <span class="feature">Age.</span>Cecaelia mature very fast, reaching adulthood by the age of 10. they also age quickly, with most rarely living longer than 70 years.<br />
+                <span class="feature">Alignment.</span>The cecaelia's intense self-reliance, nomadic lifestyle, and preference for small social structures leads them to chaotic and neutral alignments. Despite their dubious reputation amongst other races, cecaelia of good alignments are just as common as others.<br />
+                <span class="feature">Size.</span>A cecaelia's torso averages 2 to 3 feet, though their tentacles reach 8 to 10 feet in length. Your size is medium.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 15 feet. You have a swim speed of 30 feet.<br />
+                <span class="feature">Amphibious.</span>You can breathe both air and water.<br />
+                <span class="feature">Tentacles.</span>Your lower body consists of a crown of eight tentacles, the bottom surface of which are covered in a layer of soft hydrostatic discs. You can manipulate these discs to create a suction powerful enough to suspend you out of water, as well as grip opponents with frightening strength. Your tentacles are strong enough to support your weight above water and provide movement on land, albeit at a slower pace than that of surface-dwelling races. Though prehensile enough to manipulate objects, your tentacles do not possess the manual dexterity or speed to wield weapons effectively. You gain advantage on Athletics (Climbing) checks and on checks to either initiate or end a grapple. You may take the Use an Object action as a bonus action on your turn, and can do so at a range of up to 10 feet.<br />
+                <span class="feature">Hydrostatic Skeleton.</span>The internal skeleton of your upper torso is made of a flexible cartilaginous tissue, stronger than that of surface-dwellers but far more flexible than bone. Your lower body and tentacles are composed of vessels that can be filled and emptied of fluid, allowing you to stretch, manipulate, expand, and contract your entire body. You gain resistance to bludgeoning damage. In addition, you may squeeze through spaces up to two size categories smaller than you with no penalties. Equipped weapons, armour, and other items must also fit through the space to use this ability. For the purposes of this ability, any size categories smaller than Tiny (2.5ft square) are equal to one-half the previous category. For example, a medium size cecaelia may move through spaces as small as 2.5 foot square with no penalties, and a 1 ft square with normal penalties.<br />
+                <span class="feature">Languages.</span>You speak, read an write Aquan as well as Common. Aquan is a melodic language commonly used by other ocean-dwelling races such as merfold, sea elves, and the shakua.<br />
+            </p>
+        </description>
+        <setters>
+            <set name="names" type="male">Aamnesthal, Eamleith, Sorsasz</set>
+            <set name="names" type="female">Caenia, Jurira, Salria</set>
+            <set name="names-format">$(name)</set>
+            <set name="height" modifier="2d12">5'7"</set>
+            <set name="weight" modifier="1">140</set>
+        </setters>
+        <sheet display="false">
+            <description>Cecaelia are half-humanoid, half octopus-like creatures.</description>
+        </sheet>
+        <rules>
+            <stat name="Dexterity" value="2" />
+            <select type="Ability Score Improvement" name="Cecaelia" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_INTELLIGENCE" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="Speed" value="15" bonus="base" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_Cecaelia_AMPHIBIOUS" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_Cecaelia_TENTACLES" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_Cecaelia_HYDROSTATIC_SKELETON" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_AQUAN" />
+        </rules>
+    </element>
+    <element name="Amphibious" type="Racial Trait" source="Brew_Cecaelia" id="ID_WIKI_RACIAL_TRAIT_Cecaelia_AMPHIBIOUS">
+        <description>
+            <p>You can both swim underwater and stay ashore indefinitely.</p>
+        </description>
+        <sheet>
+            <description>You can both swim underwater and stay ashore indefinitely.</description>
+        </sheet>
+    </element>
+    <element name="Nature Whisperer" type="Racial Trait" source="Brew_Cecaelia" id="ID_WIKI_RACIAL_TRAIT_Cecaelia_TENTACLES">
+        <description>
+            <p>Your tentacles allow you to suspend yourself from objects, walk (at a slow pace) on land, grapple and climb more effectively, and Use an Object as a bonus action.</p>
+        </description>
+        <sheet>
+            <description>Your tentacles allow you to suspend yourself from objects, walk (at a slow pace) on land, grapple and climb more effectively, and Use an Object as a bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Hydrostatic Skeleton" type="Racial Trait" source="Brew_Cecaelia" id="ID_WIKI_RACIAL_TRAIT_Cecaelia_HYDROSTATIC_SKELETON">
+        <description>
+            <p>Because of your unique tentacles and cartilaginous skeleton, you are resistant to bludgeoning damage. You also may squeeze through spaces up to two size categories smaller than you with no penalties, so long as your armour, weapons, and other items will fit.</p>
+        </description>
+        <sheet>
+            <description>Because of your unique tentacles and cartilaginous skeleton, you are resistant to bludgeoning damage. You also may squeeze through spaces up to two size categories smaller than you with no penalties, so long as your armour, weapons, and other items will fit.</description>
+        </sheet>
+    </element>
+</elements>
